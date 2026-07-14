@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> image tag</title>
+    <style>
+         .responsive-image {
+            max-width:100%;
+            height: auto;
+            display: block;
+         }
+    </style>
 </head>
 <body>
     <img src="i1.jpeg" alt="could not load image"  title="image of astronaut">
     <img src="image/i2.jpeg" alt="could not load image">
     <img src="i1.jpeg" alt="Could not find the image" width="200px" height="100px">
-    <img src="i1.jpeg" alt="Could not find the image" style="width:200px; height:100px; border-radius:10%; border:2px solid #cd2323;">
-
+    <img src="i1.jpeg" alt="Could not find the image" style="width:200px; height:100px; 
+    border-radius:10%; border:2px solid #cd2323;">
+    <img src="i1.jpeg" alt="Could not find the image" class="responsive-image">
     
 </body>
 </html>
